@@ -20,7 +20,7 @@ vector<int> testCase(void)
 int correct(int n, int m, int x, int y)
 {
         int ret; int a,b;
-        if(y>=2*x) {    ret = n*m*x*10; return ret; }
+        if(y>=2*x) {    ret = n*m*x; return ret; }
         if(n*m==1) {    ret = x; return ret; }
         if(x>y) x=y;
         a = (n*m+1)/2,b=n*m-a;
